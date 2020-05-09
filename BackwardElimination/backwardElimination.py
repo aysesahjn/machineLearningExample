@@ -11,7 +11,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 from sklearn.model_selection import train_test_split
 
-data = pd.read_csv("dataFile\\tennis.csv")
+data = pd.read_csv("../DataFile/tennis.csv")
 
 tem = data.iloc[:,1:2]
 humidity = data.iloc[:,2:3]
