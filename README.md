@@ -1,0 +1,2 @@
+# supportVector
+Destek vektör örneği
