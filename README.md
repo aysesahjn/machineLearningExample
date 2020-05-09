@@ -1,2 +1,2 @@
-# supportVector
-Destek vektör örneği
+# machineLearningExample
+Makine öğrenmesi örnekleri
