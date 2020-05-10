@@ -16,7 +16,7 @@ y=data.iloc[:,-1:]
 xValue=x.values
 yValue=y.values
 
-#Karar ağacı
+#Rasal ağaçlar
 rfr= RandomForestRegressor(n_estimators=100,random_state=0)
 rfr.fit(xValue,yValue)
 
