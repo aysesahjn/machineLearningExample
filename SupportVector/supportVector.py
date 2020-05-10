@@ -21,7 +21,7 @@ yValue=y.values
 sc1=StandardScaler()
 x_s=sc1.fit_transform(xValue)
 sc2=StandardScaler()
-y_s=sc1.fit_transform(yValue)
+y_s=sc2.fit_transform(yValue)
 
 #SVR
 svr=SVR(kernel='rbf')
